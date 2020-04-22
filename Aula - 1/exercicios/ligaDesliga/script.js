@@ -10,3 +10,18 @@
 
     
 */
+
+const img = document.querySelector('img');
+const bg = document.querySelector ('body');
+const h1 = document.querySelector('h1')
+
+
+function changeBg () {
+if (bg.style.backgroundColor == 'purple' && h1.innerText == 'DESLIGADO'){
+  bg.style.backgroundColor = 'aqua';
+  h1.innerText = 'LIGADO'
+} else {
+  bg.style.backgroundColor = 'purple';
+  h1.innerText = 'DESLIGADO'
+}
+}

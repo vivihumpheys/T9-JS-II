@@ -1,17 +1,48 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./assets/script.js"></script>
+
     <title>Biscoito da sorte</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+
+        h1 {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        #message {
+            font-size: 25px;
+            text-align: center;
+            font-weight: 80px;
+
+        }
+    </style>
 </head>
+
 <body>
     <div>
         <h1>Biscoito da sorte</h1>
-        <img onclick=fraseDaSorte() src="./assets/biscoito-da-sorte.jpg" alt="Imagem de um biscoito da sorte">
-        <p id="message"></p>
-    </div>
+
+        <div class="img">
+            <img onclick=fraseDaSorte() src="./bsq da sorte.jpg" alt="Imagem de um biscoito da sorte">
+        </div>
+        <p id="message">Vamos ver a sua sorte, anjo?</p>
+
+        <script src="./script.js"></script>
 </body>
+
 </html>
