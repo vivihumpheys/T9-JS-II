@@ -11,4 +11,16 @@
 
 */
 
-const alunas = []
+window.addEventListener ('DOMContentLoaded', function (){
+  const alunas = ['Maria', 'Liana', 'Viviane', 'Gabi', 'Natalia', 'Débora', 'Nayla', 'Raquel']
+  const listaAlunas = document.querySelector ('#lista-alunas')
+  
+  for (i=0; i<alunas.length; i++ ) {
+    let item = document.createElement ('li')
+    item.innerText = alunas[i]
+    listaAlunas.appendChild(item)
+
+  }
+
+
+})
