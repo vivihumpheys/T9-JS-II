@@ -1,7 +1,13 @@
 body {
         font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding: 20px;
 }
 
 .lista-item {
     color: red;
+}
+
+.container-foto {
+    width: 200px
 }

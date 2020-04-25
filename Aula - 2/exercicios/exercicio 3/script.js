@@ -4,7 +4,7 @@
 
   Instruções:
 
-  1. crie uma página com um h1 de "Minha lista de Livros"
+  1. crie uma página HTML com um h1 de "Minha lista de Livros"
 
   2. crie um array com objetos contendo informações dos livros que você mais gosta.
   
@@ -13,10 +13,10 @@
     author: "J. K. Rowling",
   }
 
-  4. percorra pelo array de livros e, para cada livro, crie uma div com o título e autor do livro e 
-  adicione ele na página.
+  4. percorra pelo array de livros e, para cada livro, crie uma div que receba o título e autor do livro e 
+  adicione essa div na página.
 
-  Bonus: adicione uma propriedade com a URL da imagem da capa do livro e crie também um img para cada livro
+  Bonus: adicione uma propriedade com a capa do livro e crie também um img para cada livro
 
 */
 
