@@ -10,12 +10,14 @@ const botao = document.querySelector('button')
 //botao = "alguma"
 
 botao.innerText = "algumacoisa"
+botao.innerText = 'carambolas'
 
 // ------------------------------------------------------
 //altera o conteúdo textual do elemento
-//console.log(strong.innerText)
+// strong.innerText = 'destacado'
+// console.log(strong.innerText)
 
-//strong.innerText = "Olá, Marisa!"
+// strong.innerText = "Olá, Marisa!"
 
 // strong.innerText = "Alterado"
 
@@ -25,10 +27,10 @@ botao.innerText = "algumacoisa"
 //altera o conteúdo HTML do elemento
 
 //substitui o valor todo pela string
-//div.innerHTML = "<h2>HTML add por JS</h2>"
+div.innerHTML = "<h2>HTML add por JS</h2>"
 
 //concatena o valor atual com o valor atribuido
-//div.innerHTML += "<h2>HTML somando com o valor atual</h2>"
+div.innerHTML += "<h2>HTML somando com o valor atual</h2>"
 
 // -----------------------------------------------
 // alterar o conteúdo do body 
@@ -51,9 +53,9 @@ botao.innerText = "algumacoisa"
 // o classList é uma lista de todas as classes definidas no HTML para o elemento
 //adicionando uma classe na lista de classes do meu elemento
 
-//console.log(div.classList)
-//div.classList.add('divAlteradaPorJS')
-//console.log(div.classList)
+// console.log(div.classList)
+// div.classList.add('divAlteradaPorJS')
+// console.log(div.classList)
 
 //removendo classes
 //div.classList.remove('divAlteradaPorJS', 'divCSS')
@@ -66,7 +68,7 @@ botao.innerText = "algumacoisa"
 // usando setAtributte
 // div.setAttribute("id", "idNOvo")
 
-//botao.name = "logout"
+// botao.name = "logout"
 
 
 // botao.setAttribute("name", "logout")
